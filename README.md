@@ -42,7 +42,7 @@ After classification, the app multiplies each renewable energy source by its cor
 - **Pandas / NumPy**
 - **Matplotlib / Seaborn**
 - **Streamlit** (for interactive UI)
-
+- **Link** (https://igedaniel1-renewable-energy-impact-us-simulator-5qxcho.streamlit.app)
 ---
 
 ## 🖥️ Running the App Locally
@@ -52,3 +52,11 @@ After classification, the app multiplies each renewable energy source by its cor
 ```bash
 git clone https://github.com/Igedaniel1/renewable_energy_impact.git
 cd renewable_energy_impact
+
+pip install -r requirements.txt
+
+streamlit run us_simulator.py
+
+
+
+
